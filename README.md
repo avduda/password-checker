@@ -1,4 +1,4 @@
-# password_checker
+# password-checker
 This is a secure way to check if your password has ever been hacked.
 
 It is possible to check whether your account or password were hacked, by opening haveibeenpwned.com in a browser, entering the password you want to check in the browser, and getting a response. It has a dictionary of previously hacked accounts and passwords. While this website is considered secure and doing only what it's supposed to do, you should never really trust a website with your password.
