@@ -14,6 +14,13 @@ The steps are the following:
 - the API will return all the hashes it has in the dictionary of previously hacked passwords, that match the 5 characters that we sent (plus, how many times the passwords have been hacked)
 - we calculate on our machine whether the rest of the characters in our hashed password (that we didn't send to the API) match with any of the hashes from API's response.
 
-Run the program like this (with any number of passwords to check as parameters):
+In order to run the program, first have to instal the requests module from PyPi
 
+```
+pip install requests
+```
+
+Then, run the program like this (with any number of passwords to check as parameters):
+
+```
 python3 main.py your_password1 your_password2 your_password3 
